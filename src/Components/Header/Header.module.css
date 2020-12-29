@@ -1,0 +1,14 @@
+.wrapper{
+    /*background-color: #dc143c;*/
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    align-items: center;
+}
+.logo img{
+    width: 5%;
+
+}

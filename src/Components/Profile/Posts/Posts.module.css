@@ -1,0 +1,23 @@
+.wrapper{
+
+}
+
+.posts_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.textarea{
+    display:block;
+    margin-bottom: 5px;
+}
+.btn_form{
+    display: block;
+    width: 100px;
+    margin: 0 0 0 auto;
+    background-color: darkgreen;
+    font-weight: bold;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+}

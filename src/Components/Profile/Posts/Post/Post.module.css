@@ -1,0 +1,19 @@
+.wrapper{
+    margin-bottom: 20px;
+    border: 1px dotted black;
+}
+.message{
+    display: flex;
+
+}
+.avatar img{
+    width: 40px;
+}
+
+.rating{
+    display: flex;
+    justify-content: flex-end;
+}
+.rating img{
+    width: 30px;
+}
