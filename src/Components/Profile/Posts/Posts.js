@@ -10,9 +10,9 @@ const Posts =()=>{
                 <textarea  className={s.textarea} name="" id="" cols="100" rows="5" placeholder="Your news..."></textarea>
                 <button className={s.btn_form}> Send</button>
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post message='Hello' like='4' dislike='0'/>
+            <Post message='How are you?' like='6' dislike='1'/>
+            <Post message='I am OK' like='10' dislike='5'/>
         </div>
     )
 }

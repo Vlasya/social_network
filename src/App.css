@@ -1,23 +1,21 @@
 .App {
-  display: grid;
-  margin: 30px auto 30px;
-  max-width: 80%;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 10vh 85vh;
-  grid-gap: 1vh;
-  box-sizing: border-box;
+    display: grid;
+    margin: 30px auto 30px;
+    max-width: 80%;
+    max-width: 1200px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10vh 85vh;
+    grid-gap: 1vh;
+    box-sizing: border-box;
 }
 
-.header{
- grid-column: 1 / -1;
-  background-color: crimson;
-}
-.profile{
-  /*background-color: blueviolet;*/
+.header {
+    grid-column: 1 / -1;
+    background-color: crimson;
 }
 
-.sidebar{
-  background-color: aqua;
-}
+
+
+
 
 
