@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 200px;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-_mIfmXfxZydIr5sSyiVu6p_LMiG6L8ZDw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.user_info{
+    display: flex;
+}
+.user_photo{
+    margin-right: 2%;
+}
+.user_photo img{
+    width: 200px;
+
+}
+
+
+.user_data{
+}
+.user_name {
+    margin: 0;
+    padding: 0;
+}
+.user_information{
+    margin: 5px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}

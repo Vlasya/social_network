@@ -2,7 +2,15 @@ import React from "react";
 import s from "./Posts.module.css"
 import Post from "./Post/Post";
 
-const Posts =()=>{
+const Posts =(props)=>{
+    let postData=[
+        {id:1, post:'Hello', likesCount:12,dislikesCount:0},
+        {id:2, post:'How are you?', likesCount:2,dislikesCount:1},
+        {id:3, post:'I am OK',likesCount:7,dislikesCount:133}
+    ]
+    let posts=
+        postData.map(post =><Post message={post.post}like={post.likesCount} dislike={post.dislikesCount}/>)
+
     return(
         <div className={s.wrapper}>
             <h2 className={s.title}> My Posts</h2>
@@ -10,9 +18,7 @@ const Posts =()=>{
                 <textarea  className={s.textarea} name="" id="" cols="100" rows="5" placeholder="Your news..."></textarea>
                 <button className={s.btn_form}> Send</button>
             </div>
-            <Post message='Hello' like='4' dislike='0'/>
-            <Post message='How are you?' like='6' dislike='1'/>
-            <Post message='I am OK' like='10' dislike='5'/>
+             {posts}
         </div>
     )
 }
